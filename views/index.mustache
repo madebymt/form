@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel=“stylesheet” href=“css/style.css”>
+    </head>
+    <body>
+        <h1> Todo List</h1>
+<div class="todo">
+
+    <form class="todolist" action="/" method="post">
+        <input type="text" name="todo" value="">
+        <input type="submit" name="submit" value="Add todo">
+    </form>
+</div>
+
+<form class="" action="/complete" method="post">
+<div class="todo">
+        {{#todos}}
+        <button type="submit" name="button" value="{{.}}"> complete </button>
+        <span>{{.}}</span> <br>
+        {{/todos}}
+</div>
+</form>
+
+
+<div class="Complete">
+<h4>complete</h4>
+      {{#complete}}
+      <h3>{{.}}</h3>
+      {{/complete}}
+</div>
+
+    </body>
+
+
+</html>

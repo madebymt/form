@@ -1,0 +1,14 @@
+form [input] {
+    width: 500px;
+    padding: 10px;
+
+}
+
+h3 {
+    color:brown;
+}
+
+h4 {
+    color: grey;
+    font-size: 20px;
+}
